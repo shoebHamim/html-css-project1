@@ -25,7 +25,7 @@ button{
     font-size: 1.8rem;
 }
 nav{
-    background-color: rgb(84, 105, 126);
+    background-color: rgb(62, 116, 78);
     color: white;
     padding: 3rem;
 }
@@ -58,11 +58,12 @@ nav li{
     padding: 1rem 4rem;
     margin-top: 4rem;
     border: none;
-    background-color:rgb(125, 168, 211) ;
+    background-color: rgb(62, 116, 78) ;
     color: white;
     cursor: pointer;
 }
 .contact{
+    font-size: 2rem;
     margin: 5rem 0;
     text-align: center;
 }
@@ -71,9 +72,13 @@ nav li{
     margin: 1rem 0;
 }
 .contact input,.contact textarea{
+    
     margin: auto;
     width: 25%;
+    height: 3rem;
 }
 #contact-submit{
     margin-top: 1rem;
+    width: 25%;
+    
 }
