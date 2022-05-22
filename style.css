@@ -39,13 +39,13 @@ nav ul{
 nav li{
     float: left;
     margin: 0 4rem;
-    padding: ;
+    
 }
 .clear{
     clear: both ;
 }
 .main{
-    background: url('/pexels-nerfee-mirandilla-3186654.jpg');
+    background: url('pexels-nerfee-mirandilla-3186654.jpg');
     background-size: cover;
     background-repeat: no-repeat;
     height: 100rem;
