@@ -1,0 +1,79 @@
+*{
+    margin: 0;
+    padding: 0;
+    box-sizing: border-box;
+}
+html{
+    font-size: 62.5%;
+}
+h1{
+    font-size: 2.8rem;
+}
+h2{
+    font-size: 3.6rem;
+}
+h3{
+    font-size: 2.8rem;
+}
+nav a{
+    color: white;
+    text-decoration: none;
+    font-size: 2.4rem;
+    
+}
+button{
+    font-size: 1.8rem;
+}
+nav{
+    background-color: rgb(84, 105, 126);
+    color: white;
+    padding: 3rem;
+}
+nav h1{
+    float: left;
+}
+nav ul{
+    list-style-type: none;
+    float: right;
+}
+nav li{
+    float: left;
+    margin: 0 4rem;
+    padding: ;
+}
+.clear{
+    clear: both ;
+}
+.main{
+    background: url('/pexels-nerfee-mirandilla-3186654.jpg');
+    background-size: cover;
+    background-repeat: no-repeat;
+    height: 100rem;
+    text-align: center;
+    color: white;
+    padding-top: 25rem;
+    text-shadow: 4px 4px 5px black;
+}
+.main button,.contact button{
+    padding: 1rem 4rem;
+    margin-top: 4rem;
+    border: none;
+    background-color:rgb(125, 168, 211) ;
+    color: white;
+    cursor: pointer;
+}
+.contact{
+    margin: 5rem 0;
+    text-align: center;
+}
+.contact label,.contact textarea,.contact input{
+    display: block;
+    margin: 1rem 0;
+}
+.contact input,.contact textarea{
+    margin: auto;
+    width: 25%;
+}
+#contact-submit{
+    margin-top: 1rem;
+}
